@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-03T13:02:52 IST" name="Suite" finished-at="2025-08-03T13:03:08 IST" duration-ms="16198">
+    <groups>
+    </groups>
+    <test started-at="2025-08-03T13:02:52 IST" name="Login Page Test" finished-at="2025-08-03T13:03:08 IST" duration-ms="15945">
+      <class name="com.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@1d2adfbe]" started-at="2025-08-03T13:02:52 IST" name="setUp" finished-at="2025-08-03T13:03:06 IST" duration-ms="14534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.tests.LoginPageTest@1d2adfbe]" started-at="2025-08-03T13:03:06 IST" name="loginPageNavigationTest" finished-at="2025-08-03T13:03:07 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigationTest -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:2, instance:com.qa.tests.LoginPageTest@1d2adfbe]" started-at="2025-08-03T13:03:07 IST" name="forgotPwdLinkExistTest" finished-at="2025-08-03T13:03:07 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method signature="appLoginTest()[pri:3, instance:com.qa.tests.LoginPageTest@1d2adfbe]" started-at="2025-08-03T13:03:07 IST" name="appLoginTest" finished-at="2025-08-03T13:03:07 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@1d2adfbe]" started-at="2025-08-03T13:03:07 IST" name="tearDown" finished-at="2025-08-03T13:03:08 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2025-08-03T13:02:52 IST" name="Home Page Test" finished-at="2025-08-03T13:03:08 IST" duration-ms="16198">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:02:52 IST" name="setUp" finished-at="2025-08-03T13:03:06 IST" duration-ms="14291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:03:06 IST" name="homePageTitleTest" finished-at="2025-08-03T13:03:06 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:03:06 IST" name="homePageURLTest" finished-at="2025-08-03T13:03:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURLTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:03:06 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T13:03:07 IST" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:03:07 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T13:03:07 IST" duration-ms="422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:03:07 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T13:03:07 IST" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@1d9b7cce]" started-at="2025-08-03T13:03:07 IST" name="tearDown" finished-at="2025-08-03T13:03:08 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- Suite -->
+</testng-results>
