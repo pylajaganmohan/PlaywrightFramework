@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-03T16:13:37 IST" name="Suite" finished-at="2025-08-03T16:13:54 IST" duration-ms="17388">
+  <suite started-at="2025-08-03T16:23:01 IST" name="Suite" finished-at="2025-08-03T16:23:18 IST" duration-ms="17205">
     <groups>
     </groups>
-    <test started-at="2025-08-03T16:13:37 IST" name="Login Page Test" finished-at="2025-08-03T16:13:54 IST" duration-ms="16920">
+    <test started-at="2025-08-03T16:23:01 IST" name="Login Page Test" finished-at="2025-08-03T16:23:18 IST" duration-ms="16907">
       <class name="com.qa.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:13:37 IST" name="setUp" finished-at="2025-08-03T16:13:52 IST" duration-ms="15190" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:23:01 IST" name="setUp" finished-at="2025-08-03T16:23:16 IST" duration-ms="15116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:13:52 IST" name="loginPageNavigationTest" finished-at="2025-08-03T16:13:53 IST" duration-ms="497" status="PASS">
+        <test-method signature="loginPageNavigationTest()[pri:1, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:23:16 IST" name="loginPageNavigationTest" finished-at="2025-08-03T16:23:16 IST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageNavigationTest -->
-        <test-method signature="forgotPwdLinkExistTest()[pri:2, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:13:53 IST" name="forgotPwdLinkExistTest" finished-at="2025-08-03T16:13:53 IST" duration-ms="26" status="PASS">
+        <test-method signature="forgotPwdLinkExistTest()[pri:2, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:23:16 IST" name="forgotPwdLinkExistTest" finished-at="2025-08-03T16:23:17 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPwdLinkExistTest -->
-        <test-method signature="appLoginTest()[pri:3, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:13:53 IST" name="appLoginTest" finished-at="2025-08-03T16:13:53 IST" duration-ms="628" status="PASS">
+        <test-method signature="appLoginTest()[pri:3, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:23:17 IST" name="appLoginTest" finished-at="2025-08-03T16:23:17 IST" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:13:53 IST" name="tearDown" finished-at="2025-08-03T16:13:54 IST" duration-ms="512" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginPageTest@7d61eb55]" started-at="2025-08-03T16:23:17 IST" name="tearDown" finished-at="2025-08-03T16:23:18 IST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test started-at="2025-08-03T16:13:37 IST" name="Home Page Test" finished-at="2025-08-03T16:13:54 IST" duration-ms="17388">
+    <test started-at="2025-08-03T16:23:01 IST" name="Home Page Test" finished-at="2025-08-03T16:23:18 IST" duration-ms="17205">
       <class name="com.qa.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:37 IST" name="setUp" finished-at="2025-08-03T16:13:52 IST" duration-ms="15195" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:01 IST" name="setUp" finished-at="2025-08-03T16:23:16 IST" duration-ms="14754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:52 IST" name="homePageTitleTest" finished-at="2025-08-03T16:13:52 IST" duration-ms="32" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:16 IST" name="homePageTitleTest" finished-at="2025-08-03T16:23:16 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:52 IST" name="homePageURLTest" finished-at="2025-08-03T16:13:52 IST" duration-ms="3" status="PASS">
+        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:16 IST" name="homePageURLTest" finished-at="2025-08-03T16:23:16 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageURLTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:52 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T16:13:53 IST" duration-ms="495" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:16 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T16:23:16 IST" duration-ms="508" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:53 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T16:13:53 IST" duration-ms="650" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:16 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T16:23:17 IST" duration-ms="515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:53 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T16:13:54 IST" duration-ms="428" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:17 IST" name="searchTest" data-provider="getProductData" finished-at="2025-08-03T16:23:17 IST" duration-ms="402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:13:54 IST" name="tearDown" finished-at="2025-08-03T16:13:54 IST" duration-ms="514" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.HomePageTest@13d73f29]" started-at="2025-08-03T16:23:17 IST" name="tearDown" finished-at="2025-08-03T16:23:18 IST" duration-ms="919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

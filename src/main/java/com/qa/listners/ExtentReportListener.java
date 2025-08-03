@@ -17,6 +17,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportListener implements ITestListener {
 
@@ -39,7 +40,9 @@ public class ExtentReportListener implements ITestListener {
 		ExtentReports extentReports = new ExtentReports();
 		ExtentSparkReporter reporter = new ExtentSparkReporter(OUTPUT_FOLDER + FILE_NAME);
 		reporter.config().setReportName("Open Cart Automation Test Results");
-
+		reporter.config().setTheme(Theme.DARK);
+		reporter.config().setDocumentTitle("Test Results");
+		
 		extentReports.attachReporter(reporter);
 		extentReports.setSystemInfo("System", "Windows");
 		extentReports.setSystemInfo("Author", "Jagan Mohan");
