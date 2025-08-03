@@ -237,13 +237,13 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Home Page Test&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Home Page Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Home Page Test --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login Page Test&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Login Page Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -292,35 +292,35 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'appLoginTest')
 data.setCell(0, 2, 'com.qa.tests.LoginPageTest')
-data.setCell(0, 3, 485);
+data.setCell(0, 3, 971);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchTest')
 data.setCell(1, 2, 'com.qa.tests.HomePageTest')
-data.setCell(1, 3, 426);
+data.setCell(1, 3, 667);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchTest')
-data.setCell(2, 2, 'com.qa.tests.HomePageTest')
-data.setCell(2, 3, 393);
+data.setCell(2, 1, 'loginPageNavigationTest')
+data.setCell(2, 2, 'com.qa.tests.LoginPageTest')
+data.setCell(2, 3, 461);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginPageNavigationTest')
-data.setCell(3, 2, 'com.qa.tests.LoginPageTest')
-data.setCell(3, 3, 384);
+data.setCell(3, 1, 'searchTest')
+data.setCell(3, 2, 'com.qa.tests.HomePageTest')
+data.setCell(3, 3, 391);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'searchTest')
 data.setCell(4, 2, 'com.qa.tests.HomePageTest')
-data.setCell(4, 3, 344);
+data.setCell(4, 3, 340);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'forgotPwdLinkExistTest')
-data.setCell(5, 2, 'com.qa.tests.LoginPageTest')
-data.setCell(5, 3, 29);
+data.setCell(5, 1, 'homePageTitleTest')
+data.setCell(5, 2, 'com.qa.tests.HomePageTest')
+data.setCell(5, 3, 26);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'homePageTitleTest')
-data.setCell(6, 2, 'com.qa.tests.HomePageTest')
-data.setCell(6, 3, 23);
+data.setCell(6, 1, 'forgotPwdLinkExistTest')
+data.setCell(6, 2, 'com.qa.tests.LoginPageTest')
+data.setCell(6, 3, 22);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'homePageURLTest')
 data.setCell(7, 2, 'com.qa.tests.HomePageTest')
-data.setCell(7, 3, 2);
+data.setCell(7, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -363,66 +363,60 @@ return data;
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginPageNavigationTest</span>
+                <span class="method-start">13700 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">13890 ms</span>
+                <span class="method-start">13797 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginPageNavigationTest</span>
-                <span class="method-start">13890 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePageURLTest</span>
-                <span class="method-start">13916 ms</span>
+                <span class="method-start">13827 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchTest(Macbook)</span>
-                <span class="method-start">13925 ms</span>
+                <span class="method-start">13834 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">forgotPwdLinkExistTest</span>
-                <span class="method-start">14286 ms</span>
+                <span class="method-start">14171 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">appLoginTest</span>
-                <span class="method-start">14316 ms</span>
+                <span class="method-start">14195 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchTest(iMac)</span>
-                <span class="method-start">14354 ms</span>
+                <span class="method-start">14227 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchTest(samsung)</span>
-                <span class="method-start">14749 ms</span>
+                <span class="method-start">14895 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14804 ms</span>
+                <span class="method-start">15173 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15094 ms</span>
+                <span class="method-start">15236 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
