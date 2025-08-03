@@ -128,17 +128,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(iMac)">searchTest(iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(samsung)">searchTest(samsung)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.qa.tests.HomePageTest" class="method navigator-link" hash-for-method="searchTest(iMac)">searchTest(iMac)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -153,52 +153,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.tests.HomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePageTitleTest">
-                  </a> <!-- homePageTitleTest -->
-                  <span class="method-name">homePageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePageURLTest">
-                  </a> <!-- homePageURLTest -->
-                  <span class="method-name">homePageURLTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchTest(samsung)">
-                  </a> <!-- searchTest(samsung) -->
-                  <span class="method-name">searchTest</span>
-                  <span class="parameters">(samsung)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchTest(Macbook)">
-                  </a> <!-- searchTest(Macbook) -->
-                  <span class="method-name">searchTest</span>
-                  <span class="parameters">(Macbook)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchTest(iMac)">
-                  </a> <!-- searchTest(iMac) -->
-                  <span class="method-name">searchTest</span>
-                  <span class="parameters">(iMac)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -228,6 +182,52 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageURLTest">
+                  </a> <!-- homePageURLTest -->
+                  <span class="method-name">homePageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iMac)">
+                  </a> <!-- searchTest(iMac) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(samsung)">
+                  </a> <!-- searchTest(samsung) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(samsung)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Macbook)">
+                  </a> <!-- searchTest(Macbook) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -238,6 +238,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.listners.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Home Page Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.HomePageTest&quot;/&gt;
@@ -290,42 +293,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'appLoginTest')
-data.setCell(0, 2, 'com.qa.tests.LoginPageTest')
-data.setCell(0, 3, 971);
+data.setCell(0, 1, 'searchTest')
+data.setCell(0, 2, 'com.qa.tests.HomePageTest')
+data.setCell(0, 3, 650);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchTest')
-data.setCell(1, 2, 'com.qa.tests.HomePageTest')
-data.setCell(1, 3, 667);
+data.setCell(1, 1, 'appLoginTest')
+data.setCell(1, 2, 'com.qa.tests.LoginPageTest')
+data.setCell(1, 3, 628);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginPageNavigationTest')
 data.setCell(2, 2, 'com.qa.tests.LoginPageTest')
-data.setCell(2, 3, 461);
+data.setCell(2, 3, 497);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'searchTest')
 data.setCell(3, 2, 'com.qa.tests.HomePageTest')
-data.setCell(3, 3, 391);
+data.setCell(3, 3, 495);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'searchTest')
 data.setCell(4, 2, 'com.qa.tests.HomePageTest')
-data.setCell(4, 3, 340);
+data.setCell(4, 3, 428);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'homePageTitleTest')
 data.setCell(5, 2, 'com.qa.tests.HomePageTest')
-data.setCell(5, 3, 26);
+data.setCell(5, 3, 32);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'forgotPwdLinkExistTest')
 data.setCell(6, 2, 'com.qa.tests.LoginPageTest')
-data.setCell(6, 3, 22);
+data.setCell(6, 3, 26);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'homePageURLTest')
 data.setCell(7, 2, 'com.qa.tests.HomePageTest')
-data.setCell(7, 3, 1);
+data.setCell(7, 3, 3);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -363,60 +366,66 @@ return data;
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginPageNavigationTest</span>
-                <span class="method-start">13700 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">13797 ms</span>
+                <span class="method-start">15225 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageNavigationTest</span>
+                <span class="method-start">15225 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">homePageURLTest</span>
-                <span class="method-start">13827 ms</span>
+                <span class="method-start">15265 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchTest(Macbook)</span>
-                <span class="method-start">13834 ms</span>
+                <span class="method-start">15277 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">forgotPwdLinkExistTest</span>
-                <span class="method-start">14171 ms</span>
+                <span class="method-start">15730 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">appLoginTest</span>
-                <span class="method-start">14195 ms</span>
+                <span class="method-start">15760 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchTest(iMac)</span>
-                <span class="method-start">14227 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchTest(samsung)</span>
-                <span class="method-start">14895 ms</span>
+                <span class="method-start">15776 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15173 ms</span>
+                <span class="method-start">16394 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(samsung)</span>
+                <span class="method-start">16429 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15236 ms</span>
+                <span class="method-start">16860 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
