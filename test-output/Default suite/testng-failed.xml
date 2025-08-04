@@ -3,13 +3,26 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.LoginPageTest">
+      <class name="com.qa.tests.MyAccountTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="appLoginTest"/>
+          <include name="isMyAccountOptionAvailable"/>
+          <include name="isTransactionsOptionAvailable"/>
+          <include name="isDownloadsOptionAvailable"/>
+          <include name="isLogoutOptionAvailable"/>
           <include name="setUp"/>
+          <include name="isOrderHistoryOptionAvailable"/>
+          <include name="isAddressBookOptionAvailable"/>
+          <include name="tearDown"/>
+          <include name="isWishListOptionAvailable"/>
+          <include name="loginTest"/>
+          <include name="isPasswordOptionAvailable"/>
+          <include name="isRecurringPaymentsOptionAvailable"/>
+          <include name="isNewsletterAvailable"/>
+          <include name="isEditAccountOptionAvailable"/>
+          <include name="isReturnsOptionAvailable"/>
+          <include name="isRewardPointsOptionAvailable"/>
         </methods>
-      </class> <!-- com.qa.tests.LoginPageTest -->
+      </class> <!-- com.qa.tests.MyAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

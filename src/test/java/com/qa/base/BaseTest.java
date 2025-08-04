@@ -9,6 +9,7 @@ import com.microsoft.playwright.Page;
 import com.qa.factory.PlaywrightFactory;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
+import com.qa.pages.MyAccountPage;
 
 public class BaseTest {
 	PlaywrightFactory factory;
@@ -17,6 +18,7 @@ public class BaseTest {
 	protected Properties prop;
 	protected HomePage homePage;
 	protected LoginPage loginPage;
+	protected MyAccountPage accountPage;
 
 	@BeforeTest
 	public void setUp() {

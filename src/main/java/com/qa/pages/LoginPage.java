@@ -9,14 +9,14 @@ public class LoginPage {
 	private String password = "input#input-password";
 	private String loginBtn = "input.btn.btn-primary";
 	private String forgotPassword = "//div[@class='form-group']/a[contains(text(),'Forgotten Password')]";
-	private String logout = "//div[@class='list-group']/a[text()='Logout']";
+	private String warning = "//div[@class='alert alert-danger alert-dismissible']";
 
 	public LoginPage(Page page) {
 		this.page = page;
 	}
 
 	// Page actions
-	public String getLooginPageTitle() {
+	public String getLoginPageTitle() {
 		return page.title();
 	}
 
@@ -24,13 +24,21 @@ public class LoginPage {
 		return page.isVisible(forgotPassword);
 	}
 
-	public boolean doLogin(String uname, String pwd) {
+	public MyAccountPage doLogin(String uname, String pwd) {
 		page.fill(email, uname);
 		page.fill(password, pwd);
 		page.click(loginBtn);
-		
-		return page.isVisible(logout);
 
+		return new MyAccountPage(page);
+
+	}
+
+	public String getWarningMessage() {
+		return page.textContent(warning);
+	}
+
+	public boolean isWaringDisplayed() {
+		return page.isVisible(warning);
 	}
 
 }
